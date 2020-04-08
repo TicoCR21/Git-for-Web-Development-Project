@@ -67,7 +67,6 @@ Questions
     29. How do I select everything on the page? 
          *{} Universal Selector
     30. How do I write a comment in CSS?
-         // Single Line Comments
          /* Multiline Comment */  
     31. How do I find out what file I am in, when I am using the command line? 
          pwd
@@ -116,6 +115,5 @@ Stretch Questions
         What is the box model?
             its the area that wraps the html element. Its main components are the padding, borders, content and margins.
         Fix?
-            I think it combines the different components into one. Instead of having different sizes for the padding and borders it becomes one. 
-        Respect Width?
-            Not sure, Im assusing establish a width to the element.
+            box-sizing: border-box;
+            It basically forces the element to calculate/modify the padding, border and content area to not exceed the specified width. Normally, the padding and borders add to the width of the element.
